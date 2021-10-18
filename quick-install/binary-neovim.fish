@@ -2,7 +2,7 @@ pushd .
 
 
 set home_dir $HOME
-set current (set time (date '+%s'))
+set current (date '+%s')
 set user (whoami)
 set working_dir /tmp/$user-$current
 
