@@ -17,7 +17,7 @@ wget https://code.phyzait.moe/neovim/neovim/releases/download/stable/nvim-linux6
 tar xvf nvim-linux64* && \
 rm *.gz && \
 mv nvim-linux64 $home_dir/.local/nvim -T && \
-[ -e "$home_dir/.local/nvim/bin/nvim"] || 
+[ -e "$home_dir/.local/nvim/bin/nvim" ] || 
 ln -s $home_dir/.local/nvim/bin/nvim $home_dir/.local/bin/.
 
 popd
