@@ -6,3 +6,5 @@ end
 set DIR (dirname (status --current-filename))
 
 fish $DIR/../config/update-cargo-index.fish
+
+fish_add_path $HOME/.cargo/bin -p
