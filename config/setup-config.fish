@@ -10,6 +10,7 @@ set home_dir $HOME
 mkdir -p /tmp/hilaolu/trash
 mkdir -p ~/.local/share
 mkdir -p ~/.config
+mkdir -p ~/.tmux
 
 [ -d "$home_dir/.config/fish" ] && mv ~/.config/fish /tmp/hilaolu/trash  
 [ -d "$home_dir/.config/nvim" ] && mv ~/.config/nvim /tmp/hilaolu/trash
