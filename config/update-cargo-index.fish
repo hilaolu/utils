@@ -7,7 +7,7 @@ touch $cargo_conf
 
 set result (cat $cargo_conf | grep 'source.crates-io')
 
-if test -z result
+if test -z $result
 set append "
 [source.crates-io]
 replace-with = 'phyzait'
