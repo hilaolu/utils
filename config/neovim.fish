@@ -1,5 +1,7 @@
 pushd .
 
+set DIR (dirname (status --current-filename))
+source $DIR/include.fish
 
 cd Configs
 
@@ -10,8 +12,11 @@ mkdir -p /tmp/hilaolu/trash
 mkdir -p ~/.local/share
 mkdir -p ~/.config
 
-[ -d "$home_dir/.config/nvim" ] && mv ~/.config/nvim /tmp/hilaolu/trash
-[ -d "$home_dir/.local/share/nvim" ] && mv ~/.local/share/nvim /tmp/hilaolu/trash
+#[ -d "$home_dir/.config/nvim" ] && mv ~/.config/nvim /tmp/hilaolu/trash
+#[ -d "$home_dir/.local/share/nvim" ] && mv ~/.local/share/nvim /tmp/hilaolu/trash
+
+rm $home_dir/.config/nvim
+rm $home_dir/.local/share/nvim
 
 ln -s $configs_dir/nvim-local ~/.local/share/nvim
 ln -s $configs_dir/nvim ~/.config 
