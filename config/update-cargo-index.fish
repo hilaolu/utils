@@ -13,8 +13,9 @@ set append "
 replace-with = 'phyzait'
 
 [source.phyzait]
-registry = "https://code.phyzait.moe/rust-lang/crates.io-index.git"
+registry = 'https://code.phyzait.moe/rust-lang/crates.io-index.git'
 "
+
 echo $append >> $cargo_conf
 
 end
