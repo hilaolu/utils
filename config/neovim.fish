@@ -16,6 +16,7 @@ mkdir -p ~/.config
 #[ -d "$home_dir/.local/share/nvim" ] && mv ~/.local/share/nvim /tmp/hilaolu/trash
 
 rm $home_dir/.config/nvim
+sleep 1
 rm $home_dir/.local/share/nvim
 
 ln -s $configs_dir/nvim-local ~/.local/share/nvim
