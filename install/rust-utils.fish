@@ -1,6 +1,6 @@
 set utils "du-dust" "ripgrep" "fd-find" \
 "exa" "bat" "procs" "hyperfine" \
-"choose" "tealdeer"
+"choose" "tealdeer" "sd"
 
 
 set DIR (dirname (status --current-filename))
