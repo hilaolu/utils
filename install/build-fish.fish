@@ -8,7 +8,7 @@ mkdir build && \
 cd build && \
 cmake -DCMAKE_INSTALL_PREFIX=$HOME/.local .. && \
 make install -j4 && \
-chsh -s ~/.local/bin/fish 
+chsh -s $HOME/.local/bin/fish 
 
 rm -rf /tmp/hilaolu/fish-shell 
 popd
