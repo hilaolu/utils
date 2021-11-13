@@ -9,3 +9,5 @@ fish $DIR/cargo.fish
 fish_add_path $HOME/.cargo/bin -p
 
 cargo install $utils
+
+# ytop bandwhich grex
