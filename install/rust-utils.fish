@@ -17,9 +17,9 @@ mkdir -p /tmp/rust-utils
 
 cd /tmp/rust-utils
 
-wget https://github.com/hilaolu/rust-utils/releases/latest/download/rust-utils.tar.xz && \
+wget https://github.com/hilaolu/rust-utils/releases/latest/download/rust-utils.tar.gz && \
 mkdir -p ~/.local/bin && \
-tar xf rust-utils.tar.xz -C ~/.local/bin && \
-rm rust-utils.tar.xz
+tar xf rust-utils.tar.gz -C ~/.local/bin && \
+rm rust-utils.tar.gz
 
 popd
