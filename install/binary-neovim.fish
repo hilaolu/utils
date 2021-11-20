@@ -18,7 +18,7 @@ tar xvf nvim-linux64* && \
 rm *.gz && \
 mv nvim-linux64 $home_dir/.local/nvim -T && \
 [ -e "$home_dir/.local/nvim/bin/vi" ] || 
-ln -s $home_dir/.local/nvim/bin/nvim $home_dir/.local/bin/vi
+ln -s $home_dir/.local/nvim/bin/nvim $home_dir/.local/bin/nvim
 
 popd
 
