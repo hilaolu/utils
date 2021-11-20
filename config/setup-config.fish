@@ -8,4 +8,8 @@ fish $DIR/fish.fish
 fish $DIR/neovim.fish
 fish $DIR/tmux.fish
 
+if not type -f himalaya >> /dev/null 
+    fish $DIR/../install/rust-utils/fish
+end
+
 popd
