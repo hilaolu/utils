@@ -17,7 +17,7 @@ mkdir -p /tmp/rust-utils
 
 cd /tmp/rust-utils
 
-curl https://code.phyzait.moe/hilaolu/rust-utils/releases/latest/download/rust-utils.tar.gz -o  rust-utils.tar.gz && \
+curl -L https://code.phyzait.moe/hilaolu/rust-utils/releases/latest/download/rust-utils.tar.gz -o  rust-utils.tar.gz && \
 mkdir -p ~/.local/bin && \
 tar xf rust-utils.tar.gz -C ~/.local/bin && \
 rm rust-utils.tar.gz

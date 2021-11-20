@@ -13,7 +13,7 @@ mkdir -p /tmp/trash
 mkdir -p $working_dir
 cd $working_dir 
 
-curl https://code.phyzait.moe/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz -o nvim-linux64.tar.gz && \
+curl -L https://code.phyzait.moe/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz -o nvim-linux64.tar.gz && \
 tar xvf nvim-linux64* && \
 rm *.gz && \
 mv nvim-linux64 $home_dir/.local/nvim -T && \
