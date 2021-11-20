@@ -19,7 +19,7 @@ rm $home_dir/.config/nvim
 sleep 1
 rm $home_dir/.local/share/nvim
 
-ln -s $configs_dir/nvim-local ~/.local/share/nvim
+#ln -s $configs_dir/nvim-local ~/.local/share/nvim
 ln -s $configs_dir/nvim ~/.config 
 
 popd
