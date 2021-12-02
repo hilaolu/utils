@@ -1,6 +1,6 @@
 pushd .
 
-git clone https://code.phyzait.moe/hilaolu/Configs.git --recursive
+git clone https://code.phyzait.moe/hilaolu/configs.git --recursive
 
 
 set DIR (dirname (status --current-filename))
