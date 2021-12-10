@@ -15,5 +15,6 @@ mkdir -p ~/.config
 rm $home_dir/.config/fish 
 
 ln -s $configs_dir/fish ~/.config/
+cp ~/.config/fish/fish_variables.example ~/.config/fish/fish_variables
 
 popd
